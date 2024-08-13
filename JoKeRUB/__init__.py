@@ -9,20 +9,20 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "1.1.0"
 __license__ = "كـتابة وتـعديل فريـق العقرب"
-__author__ = "العقرب <https://T.ME/Scorpions_scorp>"
+__author__ = "العقرب <https://T.ME/Scorpion_scorp>"
 __copyright__ = ".." + __author__
 
 l313l.version = __version__
 l313l.tgbot.version = __version__
-LOGS = logging.getLogger("Scorpions_scorp")
+LOGS = logging.getLogger("Scorpion_scorp")
 bot = l313l
 
 StartTime = time.time()
 JEPVERSION = "1.0.0"
 
 
-if Config.UPSTREAM_REPO == "MohammedRD313":
-    UPSTREAM_REPO_URL = "https://github.com/MohammedRD313/Scorpion"
+if Config.UPSTREAM_REPO == "Mhmd26":
+    UPSTREAM_REPO_URL = "https://github.com/Mhmd26/ScoR"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
