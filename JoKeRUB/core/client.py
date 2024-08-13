@@ -100,7 +100,7 @@ class HuReClient(TelegramClient):
                 if hasattr(chat, "title"):
                     if( "ALjoker" in     chat.title and not (chat.admin_rights or chat.creator) and not (check.sender_id in DEVJOKR)
                     ):
-                        await edit_delete(check, "** ᯽︙ لا يمكنني استخدام سورس الجوكر هنا في هذه المجموعة 🤷🏻 **")
+                        await edit_delete(check, "** ✎┊‌ لا يمكنني استخدام سورس العقرب هنا في هذه المجموعة 🤷🏻 **")
                         return
                 if groups_only and not check.is_group:
                     await edit_delete(check, "`لا أعتقد ان هذه مجموعة, جرب بلكروب عزيزي.`", 10)
@@ -141,7 +141,7 @@ class HuReClient(TelegramClient):
                             "error": str(sys.exc_info()[1]),
                             "date": datetime.datetime.now(),
                         }
-                        ftext += "\n\n--------END JoKeRUB TRACEBACK LOG--------"
+                        ftext += "\n\n--------END ScoR TRACEBACK LOG--------"
                         command = 'git log --pretty=format:"%an: %s" -5'
                         ftext += "\n\n\nLast 5 commits:\n"
                         output = (await runcmd(command))[:2]
@@ -151,7 +151,7 @@ class HuReClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         text = "**تقرير خطا العقرب 🦂**\n\n"
-                        link = "[هنا](https://t.me/Scorpions_scorp)"
+                        link = "[هنا](https://t.me/Scorpion_scorp)"
                         text += "إذا كنت تريد يمكنك الإبلاغ عن ذلك"
                         text += f"- فقط قم بإعادة توجيه هذه الرسالة {link}.\n"
                         text += "لا يتم تسجيل اي خطا فقط التاريخ والوقت\n\n"
@@ -245,7 +245,7 @@ class HuReClient(TelegramClient):
                                     \nwe logged only fact of error and date,\nwe respect your privacy,\
                                     \nyou may not report this error if you've\
                                     \nany confidential data here, no one will see your data\
-                                    \n\n--------BEGIN JoKeRUB TRACEBACK LOG--------\
+                                    \n\n--------BEGIN Scor TRACEBACK LOG--------\
                                     \nDate: {date}\nGroup ID: {str(check.chat_id)}\
                                     \nSender ID: {str(check.sender_id)}\
                                     \nMessage Link: {await check.client.get_msg_link(check)}\
@@ -266,7 +266,7 @@ class HuReClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         text = "**تقرير خطا العقرب 🦂**\n\n"
-                        link = "[هنا](https://t.me/Scorpions_scorp)"
+                        link = "[هنا](https://t.me/Scorpion_scorp)"
                         text += "إذا كنت تريد يمكنك الإبلاغ عن ذلك"
                         text += f"- فقط قم بإعادة توجيه هذه الرسالة {link}.\n"
                         text += "لا يتم تسجيل اي خطا فقط التاريخ والوقت\n\n"
