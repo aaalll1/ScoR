@@ -6,6 +6,8 @@ RUN python3 -m pip install --upgrade pip
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 RUN npm i -g npm@8.19.4
+WORKDIR /app
+COPY ./ /app/
 RUN pip3 install --no-cache-dir -r requirements.txt
 ENV APP_ID=""
 ENV API_HASH=""
