@@ -8,12 +8,12 @@
 
 ——————————————————————
 
-Deploy in Railway ✓
+𝗗𝗲𝗽𝗹𝗼𝘆 𝗶𝗻 𝗥𝗮𝗶𝗹𝘄𝗮𝘆 ✓
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/RyXHY3?referralCode=r-WtSP)
 
 ——————————————————————
 
-Deploy in Render ✓
+𝗗𝗲𝗽𝗹𝗼𝘆 𝗶𝗻 𝗥𝗲𝗻𝗱𝗲𝗿 ✓
 
 [![𝗗𝗲𝗽𝗹𝗼𝘆 𝘁𝗼 𝗥𝗲𝗻𝗱𝗲𝗿](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Mhmd26/ScoR)
