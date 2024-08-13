@@ -53,7 +53,7 @@ def ibuild_keyboard(buttons):
 
 
 def main_menu():
-    text = f"**- [سـورس العقرب 🦂](https://t.me/Scorpions_scorp)\
+    text = f"**- [سـورس العقرب 🦂](https://t.me/Scorpion_scorp)\
         \n المسـاعد\
         \n\
         \n◽ العقرب لـ {mention}**"
@@ -228,7 +228,7 @@ async def inline_handler(event):  # sourcery no-metrics
             buttons = [
                 (
                     Button.inline("الحـالة ⚒️", data="stats"),
-                    Button.url(" JoKeRUB UsᴇʀBoᴛ", "https://t.me/Scorpions_scorp"),
+                    Button.url(" ScoR UsᴇʀBoᴛ", "https://t.me/Scorpion_scorp"),
                 )
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
@@ -422,8 +422,8 @@ async def inline_handler(event):  # sourcery no-metrics
         elif string == "help":
             _result = main_menu()
             result = builder.article(
-                title="© JoKeRUB Help",
-                description="Help menu for JoKeRUB",
+                title="© ScoR Help",
+                description="Help menu for ScoR",
                 text=_result[0],
                 buttons=_result[1],
                 link_preview=False,
@@ -559,7 +559,7 @@ async def inline_handler(event):  # sourcery no-metrics
     else:
         buttons = [
             (
-                Button.url("قنـاة السـورس ⚒️", "https://t.me/Scorpions_scorp"),
+                Button.url("قنـاة السـورس ⚒️", "https://t.me/Scorpion_scorp"),
             )
         ]
         markup = event.client.build_reply_markup(buttons)
@@ -567,12 +567,12 @@ async def inline_handler(event):  # sourcery no-metrics
             url=ROZLOGO, size=0, mime_type="image/jpeg", attributes=[]
         )
         text, msg_entities = await event.client._parse_message_text(
-            "**[بوت العقرب](https://t.me/Scorpions_scorp)**\
+            "**[بوت العقرب](https://t.me/Scorpion_scorp)**\
             \n\
-            \n الجوكر هـو بـوت بسـيط يدخـل الـى حسـابك لجعـلك تتحـكم به معـ اوامـر معينـة.\
+            \n العقرب هـو بـوت بسـيط يدخـل الـى حسـابك لجعـلك تتحـكم به معـ اوامـر معينـة.\
             \n\
             \n**اذا كـنت تـرغب بتـنصيـب السـورس عـلى حسـابك ,\
-            \n🐾 تعال الـى [كروب المسـاعدة](https://t.me/Scorpions_scorp)!**",
+            \n🐾 تعال الـى [كروب المسـاعدة](https://t.me/Scorpion_scorp)!**",
             "md",
         )
         result = types.InputBotInlineResult(
@@ -580,7 +580,7 @@ async def inline_handler(event):  # sourcery no-metrics
             type="photo",
             title="",
             description="القناة",
-            url="https://t.me/Scorpions_scorp",
+            url="https://t.me/Scorpion_scorp",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
