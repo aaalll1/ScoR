@@ -20,6 +20,8 @@
 
 ——————————————————————
 
-Deploy in Heroku
+𝗗𝗲𝗽𝗹𝗼𝘆 𝗶𝗻 𝗛𝗲𝗿𝗼𝗸𝘂 ✓
 
 [![Deploy ScoR](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mhmd26/ScoR)
+
+——————————————————————
