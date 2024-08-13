@@ -8,3 +8,4 @@ RUN apt-get install -y nodejs
 RUN npm i -g npm@8.19.4
 RUN /bin/sh -c pip install -r requirements.txt
 ENV PATH="/home/JoKeRUB/bin:$PATH"
+CMD python3 -m JoKeRUB
