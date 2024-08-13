@@ -6,5 +6,8 @@
        
 ╚==========================╝
 
-Deploy in Railway 
+———————————————————————————————————
+
+Deploy in Railway ✓
+
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/RyXHY3?referralCode=r-WtSP)
