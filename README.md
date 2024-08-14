@@ -10,7 +10,7 @@
 
 𝗗𝗲𝗽𝗹𝗼𝘆 𝗶𝗻 𝗥𝗮𝗶𝗹𝘄𝗮𝘆 ✓
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/RyXHY3?referralCode=r-WtSP)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/e9usxM?referralCode=kHhiQl)
 
 ——————————————————————
 
