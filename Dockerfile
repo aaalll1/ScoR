@@ -15,4 +15,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["bash", "start"]
+CMD ["python3", "-m", "main_startup"]
