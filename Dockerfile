@@ -8,13 +8,11 @@ RUN apt-get install -y nodejs
 RUN npm i -g npm@8.19.4
 WORKDIR /app
 COPY ./ /app/
+WORKDIR /usr/src/app
+RUN chmod 777 /usr/src/app
+COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
-ENV APP_ID=""
-ENV API_HASH=""
-ENV ENV=""
-ENV STRING_SESSION=""
-ENV TG_BOT_TOKEN=""
-ENV PYTHON_VERSION=""
-ENV TZ=""
-ENV DATABASE_URL=""
-CMD ["sh", "-c", "python3 -m JoKeRUB ${APP_ID} ${API_HASH} ${ENV} ${STRING_SESSION} ${TG_BOT_TOKEN} ${PYTHON_VERSION} ${TZ} ${DATABASE_URL}"]
+
+COPY . .
+
+CMD ["bash", "start"]
