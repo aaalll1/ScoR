@@ -10,6 +10,7 @@ selenium
 Flask
 flask_restful
 setuptools
+schedule
 wheel
 cloudscraper
 speechrecognition
